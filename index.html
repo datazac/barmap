@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>        
+  <script src='http://api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.js'></script>  
+  <link href='http://api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.css' rel='stylesheet' />
+  <script src='https://cdn.firebase.com/v0/firebase.js'></script>
+  <script src="firescript.js"></script>      
+  <link rel="stylesheet" href="style.css">    
+  <!--[if lte IE 8]>
+    <link href='http://api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.ie.css' rel='stylesheet' >
+  <![endif]-->
+
+</head>
+<body>
+    <div id='map'></div>
+        <div id="footer">
+            <div id="inputs">
+            <form name="input" method="get">
+                <ul>
+                    <li>
+                        Bar Name: <input id="barname" type="text">
+                    </li>
+                    <li>
+                        Longitude: <input id="lat" type="text">
+                    </li>
+                    <li>
+                        Latitude: <input id="lng" type="text">
+                    </li>
+                    <li><input id="submit" type="submit" value="Submit"></li>
+                </ul>
+            </form>
+        </div>
+        </div>
+        
+</body>
+</html>
